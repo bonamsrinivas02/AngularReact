@@ -49,3 +49,5 @@ yarn-error.log
 Thumbs.db
 *.png
 *.svg
+*.md
+*.bru
