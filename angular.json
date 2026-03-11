@@ -17,22 +17,16 @@
               "base": "dist/angular-conduit"
             },
             "index": "src/index.html",
-            "polyfills": [],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              {
-                "glob": "*.svg",
-                "input": "realworld/assets/media",
-                "output": "/assets"
-              },
               {
                 "glob": "_redirects",
                 "input": "src",
                 "output": "/"
               }
             ],
-            "styles": ["realworld/assets/theme/styles.css"],
+            "styles": [],
             "scripts": [],
             "browser": "src/main.ts"
           },

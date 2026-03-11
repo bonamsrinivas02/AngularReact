@@ -1,0 +1,29 @@
+<section class="contact" id="contact">
+  <h2>Get In Touch</h2>
+  <form (ngSubmit)="handleSubmit()">
+    <input 
+      type="text" 
+      placeholder="Your Name" 
+      [(ngModel)]="formData.name"
+      name="name"
+      required
+    >
+    <input 
+      type="email" 
+      placeholder="Your Email" 
+      [(ngModel)]="formData.email"
+      name="email"
+      required
+    >
+    <textarea 
+      placeholder="Your Message" 
+      [(ngModel)]="formData.message"
+      name="message"
+      required
+    ></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <div class="success-message" *ngIf="submitted">
+    ✓ Message sent successfully! We'll be in touch soon.
+  </div>
+</section>

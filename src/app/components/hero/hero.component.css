@@ -1,0 +1,91 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  color: white;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(30px); }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  animation: slideInDown 0.8s ease;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  opacity: 0.95;
+  animation: slideInUp 0.8s ease 0.2s both;
+}
+
+.hero-content button {
+  padding: 14px 40px;
+  background: linear-gradient(135deg, #f5576c 0%, #ffd89b 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 8px 25px rgba(245, 87, 108, 0.4);
+  animation: slideInUp 0.8s ease 0.4s both;
+}
+
+.hero-content button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(245, 87, 108, 0.6);
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

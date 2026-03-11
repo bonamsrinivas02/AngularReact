@@ -1,12 +1,29 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { HeaderComponent } from './core/layout/header.component';
-import { RouterOutlet } from '@angular/router';
-import { FooterComponent } from './core/layout/footer.component';
+import { Component } from '@angular/core';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { FeaturesComponent } from './components/features/features.component';
+import { ServicesComponent } from './components/services/services.component';
+import { AboutComponent } from './components/about/about.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  imports: [HeaderComponent, RouterOutlet, FooterComponent],
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrls: [],
+  standalone: true,
+  imports: [
+    NavbarComponent,
+    HeroComponent,
+    FeaturesComponent,
+    ServicesComponent,
+    AboutComponent,
+    TestimonialsComponent,
+    ContactComponent,
+    FooterComponent
+  ]
 })
-export class AppComponent {}
+export class AppComponent {
+  title = 'angular-app';
+}

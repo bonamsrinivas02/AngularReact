@@ -1,0 +1,7 @@
+<section class="services" id="services">
+  <h2>Our Services</h2>
+  <div class="service-section" *ngFor="let service of services" (click)="handleServiceClick(service.id)">
+    <h3>{{ service.title }}</h3>
+    <p>{{ service.description }}</p>
+  </div>
+</section>

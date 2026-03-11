@@ -1,0 +1,11 @@
+<section class="about" id="about">
+  <h2>About Us</h2>
+  <p>We are a leading technology company dedicated to providing innovative solutions that empower businesses worldwide. Our team of experts brings over 10 years of experience in cloud infrastructure, security, and digital transformation. We believe in delivering excellence through cutting-edge technology and exceptional customer service.</p>
+  
+  <div class="stats-container">
+    <div class="stat" *ngFor="let stat of stats">
+      <h3>{{ stat.value }}</h3>
+      <p>{{ stat.label }}</p>
+    </div>
+  </div>
+</section>
