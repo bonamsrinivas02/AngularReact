@@ -1,0 +1,13 @@
+{
+  "fileName": "app.component.ts",
+  "componentName": "AppComponent",
+  "selector": "app-root",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "lifecycleHooks": [],
+  "methods": [],
+  "properties": [
+    { "name": "title", "type": "string", "defaultValue": "'angular-app'", "isPublic": true }
+  ]
+}

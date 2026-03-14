@@ -1,0 +1,18 @@
+{
+  "fileName": "hero.component.ts",
+  "componentName": "HeroComponent",
+  "selector": "app-hero",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "lifecycleHooks": [],
+  "methods": [
+    {
+      "name": "handleGetStarted",
+      "parameters": [],
+      "returnType": "void",
+      "isPublic": true
+    }
+  ],
+  "properties": []
+}

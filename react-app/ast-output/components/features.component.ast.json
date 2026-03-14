@@ -1,0 +1,25 @@
+{
+  "fileName": "features.component.ts",
+  "componentName": "FeaturesComponent",
+  "selector": "app-features",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "lifecycleHooks": [],
+  "methods": [
+    {
+      "name": "handleFeatureClick",
+      "parameters": [{ "name": "featureId", "type": "number" }],
+      "returnType": "void",
+      "isPublic": true
+    }
+  ],
+  "properties": [
+    {
+      "name": "features",
+      "type": "Array<{id: number, title: string, description: string, icon: string}>",
+      "defaultValue": "[{id:1,title:'Lightning Fast',description:'Experience blazing fast performance with our optimized infrastructure and cloud-based solutions.',icon:'⚡'},{id:2,title:'Secure & Reliable',description:'Bank-level encryption and 99.9% uptime guarantee ensure your data is always protected.',icon:'🔒'},{id:3,title:'24/7 Support',description:'Our dedicated support team is always available to assist you with any questions or issues.',icon:'💬'}]",
+      "isPublic": true
+    }
+  ]
+}

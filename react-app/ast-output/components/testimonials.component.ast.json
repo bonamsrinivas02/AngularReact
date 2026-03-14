@@ -1,0 +1,25 @@
+{
+  "fileName": "testimonials.component.ts",
+  "componentName": "TestimonialsComponent",
+  "selector": "app-testimonials",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "lifecycleHooks": [],
+  "methods": [
+    {
+      "name": "getStarRating",
+      "parameters": [{ "name": "rating", "type": "number" }],
+      "returnType": "string[]",
+      "isPublic": true
+    }
+  ],
+  "properties": [
+    {
+      "name": "testimonials",
+      "type": "Array<{id: number, quote: string, author: string, title: string, rating: number}>",
+      "defaultValue": "[{id:1,quote:'TechHub has completely transformed our business operations...',author:'Sarah Johnson',title:'CEO at InnovateTech',rating:5},{id:2,quote:'The support team is exceptional!...',author:'Michael Chen',title:'CTO at DataVision',rating:5},{id:3,quote:'We saved 40% on infrastructure costs...',author:'Emily Rodriguez',title:'Operations Manager at GlobalSoft',rating:5},{id:4,quote:'The most secure and scalable solution we\\'ve ever used...',author:'David Thompson',title:'Security Lead at SecureFirst',rating:5}]",
+      "isPublic": true
+    }
+  ]
+}

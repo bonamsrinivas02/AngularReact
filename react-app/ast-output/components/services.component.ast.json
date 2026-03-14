@@ -1,0 +1,25 @@
+{
+  "fileName": "services.component.ts",
+  "componentName": "ServicesComponent",
+  "selector": "app-services",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "lifecycleHooks": [],
+  "methods": [
+    {
+      "name": "handleServiceClick",
+      "parameters": [{ "name": "serviceId", "type": "number" }],
+      "returnType": "void",
+      "isPublic": true
+    }
+  ],
+  "properties": [
+    {
+      "name": "services",
+      "type": "Array<{id: number, title: string, description: string, features: string[]}>",
+      "defaultValue": "[{id:1,title:'Cloud Infrastructure',description:'Scalable cloud solutions designed for modern businesses...',features:['Auto-scaling','Load Balancing','CDN Integration']},{id:2,title:'Security & Compliance',description:'Enterprise-grade security with compliance certifications...',features:['DDoS Protection','SSL/TLS','Backup & Recovery']},{id:3,title:'Analytics & Reporting',description:'Real-time analytics dashboard with comprehensive reporting...',features:['Custom Dashboards','Real-time Reports','Data Visualization']},{id:4,title:'API Management',description:'Powerful API platform with versioning, rate limiting...',features:['API Gateway','Developer Portal','Rate Limiting']}]",
+      "isPublic": true
+    }
+  ]
+}

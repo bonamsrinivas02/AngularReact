@@ -1,0 +1,24 @@
+{
+  "fileName": "navbar.component.ts",
+  "componentName": "NavbarComponent",
+  "selector": "app-navbar",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "lifecycleHooks": [],
+  "methods": [
+    {
+      "name": "scrollToSection",
+      "parameters": [{ "name": "sectionId", "type": "string" }],
+      "returnType": "void",
+      "isPublic": true
+    },
+    {
+      "name": "handleLogin",
+      "parameters": [],
+      "returnType": "void",
+      "isPublic": true
+    }
+  ],
+  "properties": []
+}
