@@ -33,8 +33,7 @@ export class TestimonialsComponent {
     },
     {
       id: 4,
-      quote: 'The most secure and scalable solution we\\'ve ever used. Peace of mind is priceless.',
-      author: 'David Thompson',
+      quote: 'The most secure and scalable solution we\'ve ever used. Peace of mind is priceless.',      author: 'David Thompson',
       title: 'Security Lead at SecureFirst',
       rating: 5
     }
